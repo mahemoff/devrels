@@ -4,7 +4,7 @@ layout: platform
 name: Mozilla
 homepage: http://mozilla.org
 platform-homepage: http://mozilla.org
-devrel-index: https://wiki.mozilla.org/Engagement/Developer_Engagement
+devrels-homepage: https://wiki.mozilla.org/Engagement/Developer_Engagement
 devrels:
   - twitter: codepo8
     tags: HTML5, Open Web Evangelism, BrowserID, Developer Tools
