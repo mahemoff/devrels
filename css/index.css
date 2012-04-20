@@ -19,6 +19,15 @@ body {
   margin-top: 0.6em;
 }
 
+.tags {
+  margin-top: 0.4em;
+}
+
+.tag {
+  padding: 0.2em;
+  background: #f6e6e6;
+}
+
 ul {
   padding: 0;
 }
