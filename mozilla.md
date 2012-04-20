@@ -10,7 +10,7 @@ devrels:
     tags: HTML5, Open Web Evangelism, BrowserID, Developer Tools
   - twitter: robhawkes
     tags: Open Web Gaming, Open Web Evangelism, Ask MDN
-  - twitter: robnyman
+  - twitter: robertnyman
     tags: HTML5, Open Web Evangelism, Firefox, WebAPI, @mozhacks
   - twitter: sheppy
     tags: Documentation

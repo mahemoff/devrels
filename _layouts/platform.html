@@ -6,11 +6,15 @@ layout: default
 
   <h1><a href='{{ page.url }}'>{{ page.name }}</a></h1>
 
-  <p><a target='_blank' href='{{ page.homepage }}'>Company Home</a></p>
-  <p><a target='_blank' href='{{ page.platform-homepage }}'>Platform Home</a></p>
-  {% if page.devrels-homepage %}
-    <p><a target='_blank' href='{{ page.devrels-homepage }}'>Devrels Home</a></p>
-  {% endif %}
+  <p>
+    <a target='_blank' href='{{ page.homepage }}'>Company</a>
+    {% if page.platform-homepage %}
+      <a target='_blank' href='{{ page.platform-homepage }}'>| Platform</a>
+    {% endif %}
+    {% if page.devrels-homepage %}
+      <a target='_blank' href='{{ page.devrels-homepage }}'>| Devrels</a>
+    {% endif %}
+  </p>
 
   <p class='summary'>{{ content }}</p>
 
